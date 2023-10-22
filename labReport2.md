@@ -61,4 +61,13 @@ class StringServer {
 3. If the URI is passed through with different markers, like for example something other than /add-messages, then the method doesn't do
    much at all and instead jsut displays "404 not found" instead of doing anything else.
 
-![Image](how are you.png)
+![Image](how.png)
+1. Once again the methods for the server are called using the main method and server methods of the server class and stringServer class.
+   Which after a new URI is passed into the searchbar the handleRequest method is called and it starts printing out the strings to the
+   server.
+2. The main arguemnts are the URI and the port number which is passed in through the args[] of the main method.
+3. The URI this time is obviously different so now the handleRequest method goes into a new sequence of breaking down a word with spaces
+   into a single string without the default \\+ symbols in between everything.
+
+Part 2:
+
