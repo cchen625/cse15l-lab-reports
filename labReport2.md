@@ -70,4 +70,10 @@ class StringServer {
    into a single string without the default \\+ symbols in between everything.
 
 Part 2:
+![Image](paths.png)
+![Image](ezlogin.png)
+
+Part 3:
+This week when making the code for the stringServer class I leanred that you have to put the \\ before a metacharacter which sent me into
+a small spiral of learning about metacharacters and escape sequences! 
 
