@@ -51,3 +51,14 @@ class StringServer {
     }
 }
 ~~~
+![Image](hey.png)
+1. After starting the server which calls the main method of the stringserver.java file, when typing into the searchbar
+   the /add-message?s=Hey portion of the querry, it then goes into the handlerequest method, which takes specific parts of the URL and
+   checks for different markers and then adds to our string that is displayed on screen. The start server and handle methods of the server
+   are called as well.
+2. The main argument that is being used across this class is the URI that is being used as the argument for the handleRequest method.
+   For the server side of things the port number argument which is passed through via the args[] of the main method is also used.
+3. If the URI is passed through with different markers, like for example something other than /add-messages, then the method doesn't do
+   much at all and instead jsut displays "404 not found" instead of doing anything else.
+
+![Image](how are you.png)
