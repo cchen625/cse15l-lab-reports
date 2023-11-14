@@ -72,14 +72,14 @@ Part 2:
 ~~~
 cpcychen@Camerons-MacBook-Air docsearch % less technical/911report/chapter-1.txt technical/911report/chapter-2.txt
 ~~~
-![image](lesstxt.png)
-This was my first example of the basic call of less with just one file as the only argumnet. This reuslted in the terminal going to a new page ass seen in the photo where you could navigate
-around the file and raed its contents.
+![image](chap1tochap2.png)
+This exmaple is the basic call followed by a second call where less opens up two files in a row and you can change between them at then 
+end of each file.
 ~~~
 cpcychen@Camerons-MacBook-Air docsearch % less technical/911report/chapter-2.txt technical/911report/chapter-1.txt
 ~~~
-![image](lesstext2.png)
-This was the second exmaple of the basic call on a new file. 
+![image](chap2tochap1.png)
+This was the second exmaple but showing how the order matters between the two files and it determines which file is first.
 ~~~
 cpcychen@Camerons-MacBook-Air docsearch % less -N technical/911report/chapter-1.txt
 ~~~
@@ -103,34 +103,14 @@ Seeing what -S does when lines don't wrap around or run off of the screen. Like 
 ~~~
 cpcychen@Camerons-MacBook-Air docsearch % less +30 -N technical/911report/chapter-1.txt
 ~~~
-![image](lesstx7.png)
-The next argument that was added into the command line was adding a +linenumber to the command. What this does is it starts your page on the 30th line of the txt file. You can still scroll 
-up though and see whats going on before line 30. 
+![image](startat30#1.png)
+The next argument that was added into the command line was adding a +linenumber to the command. What this does is it starts your page on the 30th line of the txt file. You can still scroll up though and see whats going on before line 30. I also did -N to show linenumber.
 ~~~
 cpcychen@Camerons-MacBook-Air docsearch % less +30 -N technical/911report/chapter-2.txt
 ~~~
-![image](lesstxt8a.png)
+![image](startat30#2.png)
 Combined the +line number with the -N count line numbers to see what was going on. As expected it started my page right at 30..
 
-heres what I typed into my terminal for these commands:
-~~~
-cpcychen@Camerons-MacBook-Air docsearch % less technical/911report/chapter-1.txt
-cpcychen@Camerons-MacBook-Air docsearch % less technical/911report/chapter-1.txt
-cpcychen@Camerons-MacBook-Air docsearch % less technical/911report/chapter-2.txt
-cpcychen@Camerons-MacBook-Air docsearch % less technical/911report/chapter-1.txt -N
-cpcychen@Camerons-MacBook-Air docsearch % less -N technical/911report/chapter-1.txt
-cpcychen@Camerons-MacBook-Air docsearch % less -N technical/911report/chapter-2.txt
-cpcychen@Camerons-MacBook-Air docsearch % less -S technical/9aa/report/chapter-1.txt
-technical/9aa/report/chapter-1.txt: No such file or directory
-cpcychen@Camerons-MacBook-Air docsearch % less -S technical/911report/chapter-1.txt 
-cpcychen@Camerons-MacBook-Air docsearch % less -S technical/911report/chapter21.txt
-technical/911report/chapter21.txt: No such file or directory
-cpcychen@Camerons-MacBook-Air docsearch % less -S technical/911report/chapter-2.txt
-cpcychen@Camerons-MacBook-Air docsearch % less + 30 technical/911report/chapter-1.txt
-+: No such file or directory
-30: No such file or directory
-technical/911report/chapter-1.txt  (press RETURN)
-~~~
 
 GPT QUESTIONS:
 ![image](gpt1.png)
