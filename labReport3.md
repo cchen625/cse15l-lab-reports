@@ -103,12 +103,12 @@ Seeing what -S does when lines don't wrap around or run off of the screen. Like 
 ~~~
 cpcychen@Camerons-MacBook-Air docsearch % less +30 -N technical/911report/chapter-1.txt
 ~~~
-![image](startat30#1.png)
+![image](startat301.png)
 The next argument that was added into the command line was adding a +linenumber to the command. What this does is it starts your page on the 30th line of the txt file. You can still scroll up though and see whats going on before line 30. I also did -N to show linenumber.
 ~~~
 cpcychen@Camerons-MacBook-Air docsearch % less +30 -N technical/911report/chapter-2.txt
 ~~~
-![image](startat30#2.png)
+![image](startat302.png)
 Combined the +line number with the -N count line numbers to see what was going on. As expected it started my page right at 30..
 
 
