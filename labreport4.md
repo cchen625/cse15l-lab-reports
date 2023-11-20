@@ -37,7 +37,7 @@ run commands in order to compile and run the files that were being tested.
 
 ![Image](failure.png)
 
-4. Fixing the code:
+Fixing the code:
 typed:
 
 ~~~
@@ -51,7 +51,7 @@ that I had just made to the code.
 
 ![Image](vimage.png)
 
-5. Running the tests again:
+Running the tests again:
 typed:
 
 ~~~
@@ -66,7 +66,7 @@ things have been editted.
 
 ![Image](success.png)
 
-6. Pushing to github:
+Pushing to github:
 typed:
 
 ~~~
