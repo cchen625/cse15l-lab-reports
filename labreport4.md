@@ -7,7 +7,7 @@ ssh<space>cs15lfa23hp<shift+2>ieng6.ucsd.edu<enter>
 
 Summary: using the ssh command to log into the ieng6 computers. Skipped through the login process because of keys.
 
-![Image](ssh.png)
+![Image](lab4ssh.png)
 
 Cloning the forked repository:
 typed:
@@ -20,7 +20,7 @@ note: the url was already copied to my clipboard before the task was started, it
 
 Summary: Using git clone command to clone the repository to the ieng6 computer. 
 
-![Image](gitclone.png)
+![Image](lab4gitclone.png)
 
 Running to show failed tests:
 typed:
