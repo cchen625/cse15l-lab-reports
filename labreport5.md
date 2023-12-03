@@ -16,3 +16,10 @@ and my code and directory afterwards!
 ![Image](lineadded.png)
 
 5. Glad I was able to help out! Alwyas check those while loops haha!
+
+
+
+
+
+REFLECTION:
+The most important thing to me that I learned in the second half of the quarter was jdb, being able to actually use a debugger to find holes in my code was really helpful and now that I understand the concept of breakpoints I'm able to use other debuggers like the one baked into visual studio code. Jdb is kind of difficult to use and being able to stopat certian lines and use locals to see everywhere that I'm doing something wrong is really helpful for me to fix tricky bugs that would otherwise take me a long time to find. 
